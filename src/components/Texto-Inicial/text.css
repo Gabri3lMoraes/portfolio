@@ -1,0 +1,93 @@
+.linkks{
+  font-size: 42px;
+  cursor: pointer;
+}
+
+.Corpo{
+
+ background-repeat: no-repeat;
+ background-position: bottom right;
+ background-size: 50%;
+ color: white; /* Cor do texto branco para contraste */
+ background-color: #0d1117;
+ margin-bottom: 15rem;
+}
+
+.social{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+
+}
+.git{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border:2px solid transparent;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.git:hover{
+    border-color:#00d2ff ;
+    background-color: rgba(0, 210, 255, 0.1);
+    color: #00d2ff;
+}
+.titulo-apresentacao{
+  margin-left: 1rem;
+}
+.about{
+  margin-left: 1rem;
+ font-family: 'Inter';
+ font-size: 23px;
+}
+
+.full {
+  display: inline-block; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  vertical-align: bottom; 
+  border-right: 4px solid #4a47f6; 
+  width: 0; 
+  animation: 
+    typing 1.5s steps(9, end) forwards, 
+    blink 0.8s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 4.3em; } 
+}
+
+
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: #4a47f6; }
+}
+
+
+.about-text{
+  color: aqua;
+  margin-left: 20px;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.ajust-text{
+  max-width: 65ch; 
+  line-height: 1.6; 
+  color: #a1a1aa;
+}
+
+.full{
+  background: linear-gradient(to right, #00d2ff, #8a2be2); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}

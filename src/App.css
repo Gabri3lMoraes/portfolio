@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+
+
+
+
+.tecfull{
+  background: linear-gradient(to right, #00d2ff, #8a2be2); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.text{
+  padding-left: 20px;
+}
+
+.topic1{
+  font-size: 36px;
+}
+
+.Trabalho{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 7px;
+}
+
