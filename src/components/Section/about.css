@@ -13,3 +13,51 @@
     margin:0 auto ;
     color: #a1a1aa;
 }
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    max-width: 482px;
+}
+
+.card-body{
+    border: 0.5px solid #08373a;
+    padding: 0px 15px 0px 25px; 
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all 0.3s ease-in-out; 
+    background-color: #0d1117;
+}
+.card-body:hover {
+  /* 1. Acende a linha da borda com a sua cor ciano */
+  border-color: #00d2ff; 
+  
+ 
+  box-shadow: 
+    0 0 15px rgba(0, 210, 255, 0.2),  
+    inset 0 0 10px rgba(0, 210, 255, 0.05); 
+    
+  
+  transform: translateY(-3px); 
+}
+
+
+.card-body .icon {
+  font-size: 32px;
+  color: #00d2ff; 
+  transition: all 0.3s ease;
+}
+
+
+.card-body:hover .icon {
+  filter: drop-shadow(0 0 8px rgba(0, 210, 255, 0.6));
+}
+.card-text{
+    color: #d1c4c4;
+    font-weight: bold;
+    font-family: monospace
+}

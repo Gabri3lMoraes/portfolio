@@ -7,6 +7,7 @@ import { CodeXml } from 'lucide-react';
 import Navbar from './components/Navbar/navbar';
 import TextIncial from './components/Texto-Inicial/Textstart'
 import About from './components/Section/About';
+import Projetos from './components/Projetos/projetos';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,6 +16,7 @@ function App() {
       <Navbar/>
       <TextIncial/>
       <About/>
+      <Projetos/>
     </>
   )
 
