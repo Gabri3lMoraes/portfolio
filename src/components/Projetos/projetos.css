@@ -14,4 +14,116 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
+    margin-bottom: 7rem;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+   
+    flex: 1;
+    align-items: center;
+    width: 96%;
+}
+    
+
+
+.cardproject{
+    display: flex;
+    width: 38rem;
+    flex-direction: column;
+    border: 2px solid #2e2a2a;
+    border-radius: 15px;
+    padding: 1px 0px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.conjuntos-tec{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.text-card{
+    font-weight: bold;
+    cursor: default;
+    margin-bottom: 0px;
+    font-size: 24px;
+    padding-left: 10px;
+}
+.para-card{
+    padding-left: 10px  ;
+}
+.text-card:hover{
+    color: #00d2ff;
+}
+
+.tecnopop{
+    list-style: none;
+    border: 1px solid #2d2d2c;
+    padding: 10px;
+    border-radius: 15px;
+    background: #2d2d2c;
+}
+
+.tecpop{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.cardcorpo{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 5rem;
+    gap: 1rem;
+}
+
+.poptitulo{
+    color: #00d2ff;
+    border: 1px solid #00d2ff;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.cardproject:hover {
+  
+  border-color: #00d2ff; 
+  
+ 
+  box-shadow: 
+    0 0 15px rgba(0, 210, 255, 0.2),  
+    inset 0 0 10px rgba(0, 210, 255, 0.05); 
+    
+  
+  transform: translateY(-3px); 
+}
+
+.cardproject .icon {
+  font-size: 32px;
+  color: #00d2ff; 
+  transition: all 0.3s ease;
+}
+
+.cardproject:hover .icon {
+  filter: drop-shadow(0 0 8px rgba(0, 210, 255, 0.6));
+}
+
+.cardproject:hover .text-card {
+  
+  color: #00d2ff;
 }
