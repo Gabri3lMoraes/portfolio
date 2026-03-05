@@ -2,7 +2,7 @@ import './projetos.css'
 import { ExternalLink, Workflow, Smartphone, Globe, Phone } from 'lucide-react';
 export default function Projetos() {
     return (
-        <div className="containe">
+        <div id='projeto' className="containe">
             <h3 className="about-project">// Projetos</h3>
             <h1>O que eu tenho <span className="projefull">construido</span></h1>
             <div className="cardcorpo">
@@ -146,7 +146,7 @@ export default function Projetos() {
                 <div className="cardproject" onClick={() => window.open('https://github.com/Gabri3lMoraes/CurriculoIA')}>
                 <div className="nav">
                     <div className="conjuntos-tec">
-                        <a href=""><Workflow className='icon' color='#00d2ff'  /></a>
+                        <a href=""><Smartphone className='icon' color='#00d2ff'  /></a>
                         <p className='poptitulo'>Mobile</p>
                     </div>
                     <a href=""><ExternalLink className='icon' /></a>
@@ -163,7 +163,7 @@ export default function Projetos() {
                 <div className="cardproject" >
                 <div className="nav">
                     <div className="conjuntos-tec">
-                        <a href=""><Workflow className='icon' color='#00d2ff'  /></a>
+                        <a href=""><Smartphone className='icon' color='#00d2ff'  /></a>
                         <p className='poptitulo'>Mobile</p>
                     </div>
                     <a href=""><ExternalLink className='icon' /></a>
@@ -180,7 +180,7 @@ export default function Projetos() {
                 <div className="cardproject" onClick={()=> window.open('https://github.com/Gabri3lMoraes/AppUninassau')}>
                 <div className="nav">
                     <div className="conjuntos-tec">
-                        <a href=""><Workflow className='icon' color='#00d2ff'  /></a>
+                        <a href=""><Smartphone className='icon' color='#00d2ff'  /></a>
                         <p className='poptitulo'>Mobile</p>
                     </div>
                     <a href=""><ExternalLink className='icon' /></a>

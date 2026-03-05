@@ -81,15 +81,18 @@
 }
 .cardcorpo{
 
-    display: flex;
+    display: grid;
     align-items: center;
-    justify-content: space-around;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 100%;
+    width: 50px;
     margin-bottom: 5rem;
     gap: 1rem;
+    justify-items: center;
+    max-width: 1200px;
 }
 
 .poptitulo{

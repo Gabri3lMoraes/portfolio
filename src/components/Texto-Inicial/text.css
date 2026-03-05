@@ -10,13 +10,14 @@
  background-size: 50%;
  color: white; /* Cor do texto branco para contraste */
  background-color: #0d1117;
- margin-bottom: 15rem;
+ margin-bottom: 6rem;
 }
 
 .social{
   list-style: none;
   display: flex;
   gap: 2rem;
+  padding: 0;
 
 }
 .git{
@@ -90,4 +91,9 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
+}
+
+.text{
+  display: flex;
+      justify-content: space-around;
 }

@@ -21,16 +21,16 @@ export default function Navbar(){
 
                 <ul className={`ulist ${menuAberto ? 'ativo' : ''}`}>
                   <li className='list'>
-                    <a href="#" onClick={toggleMenu}>Home</a>
+                    <a href="Textstart" onClick={toggleMenu}>Home</a>
                   </li>
                   <li className='list'>
-                    <a href="#" onClick={toggleMenu} >Sobre Mim</a>
+                    <a href="#about" onClick={toggleMenu} >Sobre Mim</a>
                   </li>
                   <li className='list'>
-                    <a href="#" onClick={toggleMenu}>Tecnologias</a>
+                    <a href="#projeto" onClick={toggleMenu}>Projetos</a>
                   </li>
-                  <li className='list' id='contato'>
-                    <a id='a-contato' href="#" onClick={toggleMenu}>Fale comigo</a>
+                  <li className='list' id='contatos'>
+                    <a id='a-contato' href="#contato" onClick={toggleMenu}>Fale comigo</a>
                   </li>
                 </ul>
             </nav>
