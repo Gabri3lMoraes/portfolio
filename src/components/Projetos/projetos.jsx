@@ -1,7 +1,16 @@
 import './projetos.css'
 import { ExternalLink, Workflow, Smartphone, Globe, Phone } from 'lucide-react';
+import { motion } from 'framer-motion';
 export default function Projetos() {
     return (
+        <motion.div
+        initial={{ opacity: 0, y: 50 }}          
+        whileInView={{ opacity: 1, y: 0 }}  
+        transition={{ duration: 0.6, ease: "easeOut" }} 
+        viewport={{ 
+          once: true,  
+          amount: 0.2  
+        }}>
         <div id='projeto' className="containe">
             <h3 className="about-project">// Projetos</h3>
             <h1>O que eu tenho <span className="projefull">construido</span></h1>
@@ -198,5 +207,6 @@ export default function Projetos() {
             </div>
             
         </div>
+        </motion.div>
     )
 }

@@ -9,6 +9,7 @@ import TextIncial from './components/Texto-Inicial/Textstart'
 import About from './components/Section/About';
 import Projetos from './components/Projetos/projetos';
 import Contato from './components/contato/contato';
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,6 +18,7 @@ function App() {
       <Navbar/>
       <TextIncial/>
       <About/>
+
       <Projetos/>
       <Contato/>
     </>

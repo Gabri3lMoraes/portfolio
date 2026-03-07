@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './contato.css'
-
+import { motion } from 'framer-motion';
 import { Github, Mail, MapPin, Send, Linkedin } from 'lucide-react';
 
 
@@ -29,6 +29,13 @@ export default function Contato(){
         window.open(`https://wa.me/${Numero}?text=${textoFormatado}`, '_blank');
     }
     return(
+        <motion.div initial={{ opacity: 0, y: 50 }}          
+        whileInView={{ opacity: 1, y: 0 }}  
+        transition={{ duration: 0.6, ease: "easeOut" }} 
+        viewport={{ 
+          once: true,  
+          amount: 0.2  
+        }}>
         <div id='contato' className="container-contato">
             <div className="topo">
                 <p className='text-contato'>// Contato</p>
@@ -67,6 +74,6 @@ export default function Contato(){
            
 
         </div>
-        
+    </motion.div>
     )
 }
