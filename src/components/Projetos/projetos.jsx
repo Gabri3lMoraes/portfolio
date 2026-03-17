@@ -131,8 +131,6 @@ export default function Projetos() {
                 <p className='text-card'>Agente Financeiro IA com N8N</p>
                 <p className='para-card'>Automação que recebe áudios via Telegram, transcreve, organiza gastos e os salva automaticamente em uma planilha.</p>
                 <ul className="tecpop">
-                    <li className='tecnopop'>N8N</li>
-                    <li className='tecnopop'>Webhook</li>
                     <li className='tecnopop'>API</li>
                     <li className='tecnopop'>Telegram</li>
                     <li className='tecnopop'>Google sheet</li>

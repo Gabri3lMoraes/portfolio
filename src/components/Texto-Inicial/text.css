@@ -5,12 +5,15 @@
 
 .Corpo{
 
- background-repeat: no-repeat;
- background-position: bottom right;
- background-size: 50%;
- color: white; /* Cor do texto branco para contraste */
- background-color: #0d1117;
- margin-bottom: 6rem;
+ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 20px;
+    max-width: 1240px;
+    margin:0 auto ;
+    color: #a1a1aa;
+    flex-wrap: wrap;
 }
 
 .social{

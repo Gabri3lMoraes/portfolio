@@ -39,7 +39,7 @@ export default function Contato(){
         <div id='contato' className="container-contato">
             <div className="topo">
                 <p className='text-contato'>// Contato</p>
-                <h1>Vamos <span className='fullcontato'>conversar</span>?</h1>
+                <h1 className='text-topo'>Vamos <span className='fullcontato'>conversar</span>?</h1>
             </div>
         <div className="containersection">
              <div className="f-contato">

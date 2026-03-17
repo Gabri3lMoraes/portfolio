@@ -28,9 +28,6 @@ export default function textoInicial(){
                 <li className='linkks'><a className='git' href=""><Instagram /></a></li>
               </ul>
             </div>
-             <div className="foto">
-                <img src="./src/assets/foto.jpg" style={{width: '300px', borderRadius: '50%'}} alt="" />
-             </div>
              
           </div>
         </motion.div>

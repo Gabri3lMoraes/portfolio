@@ -21,19 +21,19 @@
 }
 
 .containersection{
-    display: flex;
+       display: flex;
     align-items: stretch;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
-    max-width: 1200px;
+    max-width: 1300px;
     margin-bottom: 7rem;
     gap: 2rem;
 }
 
 .f2-contato{
-    width: 600px;
+    width: 530px;
         display: flex;
     flex-direction: column;
     align-content: center;
@@ -43,8 +43,7 @@
 }
 
 .f-contato{
-    width: 600px;
-    margin-left: 4rem;
+    width: 530px;
 }
 
 .paragrafo-contato{
@@ -157,3 +156,9 @@
     justify-content: center;
     align-items: center;
 }
+
+.text-topo{
+        text-align: center;
+}
+
+
